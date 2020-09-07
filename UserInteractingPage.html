@@ -1,0 +1,82 @@
+<html>
+/*
+***************
+         Defi 2.0
+***************
+*/
+<head>
+</head>
+<style>
+html {
+background-color:black;
+color: limegreen;
+text-shadow: 0px 0px 8px dimgrey;
+text-decoration: none;
+}
+</style>
+<body onLoad=”poolCheck(poolCheck)”>
+<h1 align=”center”><b>Defi 2.0: <i>Working Title</i></b></h1>
+<hr>
+<p> &nbsp; &nbsp; &nbsp; Welcome to <i><b>Defi 2.0</b></i> where the community builds an interest pool to receive later! This is the next step to the future of crypto economics!</br> &nbsp; &nbsp; &nbsp; This new contract setup will help us all help us earn a bit more together! Pay per coin at the cost of the coin + 25% of the current pool size, this builds a pool for rebase payments later.</br></br>
+<h2 align=”center”>What’s the difference from <i>Defi <b>1.0</b></i>?<hr></h2>
+
+&nbsp; &nbsp; &nbsp; Defi tries to encourage quick investing entry in a gamified way where the sooner one gets in, the more tokens/value that may be received in as interest or rebasing the circulating supply of the current token. So this increases the circulating supply without additional tokens being minted/purchased. The gamified entry method tends to cause a spike in value for the token, rebasing after the tokens are minted can help reduce the value of the token. This is a common tactic in stable coins so seeing this with non-stable coins is intended to help the next wave of investors or consumers of the token.</br></br> &nbsp; &nbsp; &nbsp; Defi 2.0 takes this gamified entry with rebasing model and reverses what tokens gets locked, has the participants pre-pay for the rebasing tokens that get minted but the returns are given back 1% of rebase pool per new pool season. A pool season is the entry periods where investors/consumers will be able to pre-purchase tokens and the rebase. Once the pool season is over, the tokens will not be able to be purchased through the contract until the next pool season begins. Pool seasons have a short <i>cool-down</i> period equal to half the time of each pool season.</br> &nbsp; &nbsp; &nbsp; Because investors/consumers are paying 25% of the pool size, the tokens become more expensive in retrospect since the cost for a participants total tokens purchase increases after every participant entry.</br></br><b>New tactics are being used in Defi 2.0 tokens which are as follows:</b></br><ol>Instead of participants locking the tokens received from initial minting, the rebase tokens are locked until rebase distribution at the start of every new pool season loop</ol><ol>Entry and minting is done in predetermined seasons based on time measures since the last season end</ol><ol>Each pool season controls their own wallets and so if one is hacked, only that pool season wallet is effected</ol><ol>Prepay ReBase Minting</ol><ol>Minting ReBase at inital Minting</ol><ol>Taking 25 new Pool Seasons to distribute all of a ReBase pool from per pool season</ol><ol>Limited Burn-&-Mix burn method for participants swapping without exchanges</ol><ol>New Gamified methods seen are as follows:</br><ol>ReBase Price Inflation per Entry</ol><ol>Multiple Address per entity for multiple entries per entity</ol><ol>Burning token amount is based on participant entry pool size</ol><ol>Layered Return possibility</ol><ol>All participants are able to receive Ultra pool rewards</ol></ol><hr>
+  <h2 align=”center”>How does this feasible?<hr></h2>
+</br></br>The design in the new defi token economics are:</br><ol>User usability from not locking user held defi tokens</ol><ol>Applying real world community assistance financial pools model</ol><ol>Injecting temparory inflation based on demand</ol><ol>Mixing returned to-be-burned tokens instead of burning</ol><ol>Controlled circulation by frozen rebase pools</ol><ol>Seperating pool seasons for season independance</ol></br></br> &nbsp; &nbsp; &nbsp; Without this new design Defi tokens would stay a fools IPO game. These new actions cause legitimacy by the contract instead having hopes the devs won't exit scam. If a dev builds the contract correctly, they will be paid out per season end, enforcing developers to want to see longevity in the project. Since rebase is acitivated by new pool seasons, participants are enforced to want to see longevity in the project. Because extra native tokens are distributed to all participants when the ultra pool (or overflow wallet) reaches a specific amount, this enforces participants to want to have higher amounts in each intial pool minting so they can mark more tokens to be burned to increase the speed the ultra pool fills up & enfroces longevity. Because Defi 2.0 tokens' smart contracts can distribute the Defi tokens as well as the native tokens, all participants (even if only once) has a chance to recieve a portion of their entry back as a longevity reward (Ultra Pool distribution).</br></br> &nbsp; &nbsp; &nbsp; Defi 2.0 Tokens are all about gamifing as much aspects possible in Defi token economics to help increase the longevity. Defi 2.0 is a system where all participants win, even if they don't break even. <sup>**<sub>Defi 2.0 tokens do not guarantee profit.</sub>**</sup>
+</p>
+<p align=”center”><span id=”poolOutput”></span>&nbsp;<span>Native Token Here</span><hr></p></br>
+<h3>How much [Native Token] do you want to spend?
+<input id=”userBuy” placeholder=”##### [NTH]…” ></input><input type=”button” value=”Decide”>Decide</input>
+</h3>
+</br>
+<p align=”center”> Expected to receive in minting: <span id=”defiToken”></span> + rebase(s)</br><sup>&nbsp; &nbsp; The actual number of return tokens cannot be guaranteed and may change depending on the end of season total tokens participated into the season.</sup></p>
+
+<script>
+// if we always check pool first and every x-length, we can inform people before hand what the 25% will be
+var poolCheck = ‘’;
+
+ function poolCheck(poolCheck) {
+   var repool = NativeTokenAPI.RePool.Address;
+  document.getElementById(‘poolOutput’).innerHTML = repool;
+return repool;
+return poolCheck;
+}
+
+/* the pool will be a public address that is controlled by the contract to check pool & send minted/native tokens for participants, devs, rebase & burn return */
+// we do not have a pool address yet
+var Pool = artifacts.require("./Pool.sol");
+contract('Pool', function(accounts) {
+        it("call method g", function() {
+            Pool.deployed().then(function(instance) {
+                  return instance.call('g');
+                }).then(function(result) {
+                  assert.equal("method g()", result, "is not call method g");
+            });
+        });
+        it("call method f", function() {
+            Pool.deployed().then(function(instance) {
+                  return instance.call('f');
+                }).then(function(result) {
+                  assert.equal("method f()", result, "is not call method f");
+                });
+        });
+});
+// after poolCheck we look for user input
+
+document.getElementById("userBuy").addEventListener("oninput", priceing());
+
+function pricing() {
+var userIn, ntPrice, rpTokens, poolStat, rpPrice;
+poolStat = “document.getElementById(‘poolOutput’).innerHTML”;
+userIn = “document.getElementById(‘userBuy’).value;
+ntPrice = “https://NativeToken.api.price”;
+rpPrice = ; //price to mint each token
+ntTorp =  poolStat*0.25;
+rpTokens = rpPrice/(ntTorp-userIn); //math may be wrong
+ //rpTokens is finding the number of tokens user will receive from minting
+document.getElementById(‘defiToken’).innerHTMl = rpTokens + “[repool symbol] /” + rpPrice + “ + “ + ntTorp + “[NTsymbol]”;
+}
+
+
+
+
