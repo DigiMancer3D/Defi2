@@ -20,14 +20,15 @@
 //Defi 2.0 Community Managers deserve Pay too!
 //
 //    Artists::
-//         Graphics: ''Earmarked::Ricou "Ricooouuuu" (git: --N/A--)''
-//         Logo: ''Earmarked::Dexter "Hog Dexter" (git: --N/A--)''
+//         Graphics: Ricou "Ricooouuuu" (git: --N/A--)
+//         Logo: Dexter "Hog Dexter" (git: --N/A--)
+//         Marketing: unX75 "unX75" (git: --N/A--) 
 //    
 //    Community Managers::
 //         Africa Manager(s): Kit U "Kit BTC" (git: --N/A--)
-//                             **Position Open**
+//                            Drake "DrakeinRaven" (git: --N/A--)
 //         North America Manager(s): AP "Dr. Me" (git: --N/A--)
-//                         **Position Open**
+//                                   unX75 "unX75" (git: --N/A--) 
 //         Erupoean Managers(s): **Position Open**
 //                               **Position Open**
 //         South America Manager(s): **Position Open**
