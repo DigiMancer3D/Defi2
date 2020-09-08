@@ -26,7 +26,7 @@
 //    
 //    Community Managers::
 //         Africa Manager(s): Kit U "Kit BTC" (git: --N/A--)
-//                            Drake "DrakeinRaven" (git: --N/A--)
+//                            Johnathan "DrakeinRaven" (git: --N/A--)
 //         North America Manager(s): AP "Dr. Me" (git: --N/A--)
 //                                   unX75 "unX75" (git: --N/A--) 
 //         Erupoean Managers(s): **Position Open**
@@ -45,7 +45,7 @@
 */
 
             //Tron Pool Addresses::
-
+TC1bUEqG6p11yEBmR3NwmMAry4YFz7L8iv
 
 
 
