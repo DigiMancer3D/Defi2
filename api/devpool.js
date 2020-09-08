@@ -46,11 +46,13 @@
 
             //Tron Pool Addresses::
 TC1bUEqG6p11yEBmR3NwmMAry4YFz7L8iv
+THYZxFWcmBe3SyJSbSNky7p1cETJ4FbGB3
+
 
 
 
             //Ethereum Pool Addresses::
-
+0xF357109F3270AA33D4b1C781043685F89DA9742F
 
 
 
