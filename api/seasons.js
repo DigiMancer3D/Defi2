@@ -1,5 +1,5 @@
 import request from "~/plugins/request";
-import { Message } from 'element-ui'
+import { Message } from 'element-ui' //needs to pull in from user client
 import interfaceData from "./config"
 const SERVER_API = interfaceData.sideOptions.eventServer
 
@@ -10,7 +10,7 @@ const SERVER_API = interfaceData.sideOptions.eventServer
 export function timeLoop(params) {
   return new Promise(function(resolve, reject) {
     request({
-      url: `${SERVER_API}/events/contract/${params.contractAddress}/${params.eventName}`,
+      url: `${SERVER_API}/events/contract/${params.contractAddress}/${params.eventName}`, //unsure if set right
       method: "get",
       data: {limit: params.limit}
     })
