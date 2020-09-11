@@ -9,6 +9,9 @@ const server_url = interfaceData.SERVER_API
  * 
  * @param {*} params 
  */
+
+//needs to setup timer for rebase distribution & distribution locking & distribution to participants
+
 export function queryBonusRecord(params) {
   return new Promise(function(resolve, reject) {
     request({
