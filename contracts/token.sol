@@ -10,9 +10,9 @@ contract Test{
 
 //require poolCheck 
 
-var poolCheck = artifacts.require("./rePool.sol/poolCheck");
-var Burning = artifacts.require("./Burning.sol");
-var Minting = artifacts.require("./Minting.sol");
+var poolCheck = artifacts.require("./rePool.sol/poolCheck"); //needs to pull from /contracts/rePool.sol
+var Burning = artifacts.require("./Burning.sol"); //needs to exist still
+var Minting = artifacts.require("./Minting.sol"); //needs to exist still
 
 module.exports = function(deployer) {
   deployer.deploy(poolCheck);
