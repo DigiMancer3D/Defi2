@@ -45,27 +45,24 @@
 */
 
             //Tron Pool Addresses::
-TC1bUEqG6p11yEBmR3NwmMAry4YFz7L8iv
-THYZxFWcmBe3SyJSbSNky7p1cETJ4FbGB3
-TWKH34kexrK5iprDr7wAWMwqX3zZg5wfXz
+var trxDevPool = [TC1bUEqG6p11yEBmR3NwmMAry4YFz7L8iv,THYZxFWcmBe3SyJSbSNky7p1cETJ4FbGB3,TWKH34kexrK5iprDr7wAWMwqX3zZg5wfXz];
 
 
 
             //Ethereum Pool Addresses::
-0xF357109F3270AA33D4b1C781043685F89DA9742F
-0xAFd6b450D70FD3A0E6e61719Cd8a4CfF18453522
+var ethDevPool = [0xF357109F3270AA33D4b1C781043685F89DA9742F,0xAFd6b450D70FD3A0E6e61719Cd8a4CfF18453522];
 
 
 
 
             //Sky Pool Addresses::
-
+var skyDevPool = [];
 
 
 
 
            //EOS Pool Addresses::
-
+var eosDevPool = [];
 
 
 
