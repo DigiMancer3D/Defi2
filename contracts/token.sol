@@ -10,7 +10,7 @@ contract Test{
 
 //require poolCheck 
 
-var poolCheck = artifacts.require("./poolCheck.sol");
+var poolCheck = artifacts.require("./rePool.sol/poolCheck");
 var Burning = artifacts.require("./Burning.sol");
 var Minting = artifacts.require("./Minting.sol");
 
