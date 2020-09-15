@@ -66,7 +66,7 @@ contract rePool is  CommunityOwnership {
         require(_pool);
         _poolweight = (_pool*25%);
         
-        // allowd overflow here.
+        // allowed overflow here.
         defaultSalt = bytes32(uint256(defaultSalt) + item.point + msg.value); 
         uint256 random = uint256(keccak256(abi.encodePacked(defaultSalt, blockhash(block.number - 1)))).mod(100);
         
