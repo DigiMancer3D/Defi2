@@ -3,13 +3,13 @@
 </head>
 <style>
 html {
-background-color:black;
-color: limegreen;
-text-shadow: 0px 0px 8px dimgrey;
+text-shadow: 0px 0px 6px darkgreen;
 text-decoration: none;
+scroll-behavior: smooth;
 }
          
 .floater {
+scroll-behavior: smooth;
 position: fixed;
 align: left;
 left: 0;         
@@ -42,9 +42,14 @@ top: 0;
  .bidinput {
   width:14vw;
  }
-  
+  #buttonZone {
+   margin-top:-45px;
+  }
  }
  @media screen and (max-width: 9.9in) {
+  #buttonZone {
+   margin-top:-20px;
+  }
  .bidclick {
   width:14vw;
  }
@@ -53,16 +58,16 @@ top: 0;
  }
  }
 </style>
-<body onLoad=”poolCheck(poolCheck)”>
-<div  class="floater" style="border:0.5px solid darkgreen;">
+<body id="body" onLoad=”poolCheck(poolCheck)”>
+<div id="floater" class="floater" style="border:0.5px solid darkgreen;">
 <p align=”center” style="align:center" id="bidders">This Season's Pool: <span id=”poolOutput”></span>&nbsp;<span>Native Token Symbol</span><hr style="border:0.5px solid darkgreen"></p>
 <h3>Place a bid:
  &nbsp;&nbsp;&nbsp;&nbsp;<input id=”userBuy” placeholder='2000&nbsp;$NTS…' class="bidinput"></input></br>&nbsp;&nbsp;&nbsp;<button type=”button” class="bidclick" style="text-align:center;">Decide&nbsp;&nbsp;</button>
  </br><sup><sup><sub>Bid minimum is 1792 $TRX</sub></sup></sup></h3>
-<p align=”center” style="align:center;margin-top:-2vw;">&nbsp;&nbsp;&nbsp;&nbsp;Bid worth:&nbsp;<span id=”defiToken”></span>&nbsp;$NTS &nbsp;&nbsp;+&nbsp;<span id="rebaseValue"></span>rebase<hr style="border:0.5px solid darkgreen"><sup>&nbsp;<span id="popers" style="background-color:black;">&nbsp; &nbsp; &nbsp;To receive tokens, a participant must place a bid for tokens also paying for the rebase pool & additionals by paying an additional 25% of the pool value at the time the bid is placed.</span></sup></p>
+<p align=”center” style="align:center;margin-top:-2vw;">&nbsp;&nbsp;&nbsp;&nbsp;Bid worth:&nbsp;<span id=”defiToken”></span>&nbsp;$NTS &nbsp;&nbsp;+&nbsp;<span id="rebaseValue"></span>rebase<hr style="border:0.5px solid darkgreen"><sup>&nbsp;<span id="popers" >&nbsp; &nbsp; &nbsp;To receive tokens, a participant must place a bid for tokens also paying for the rebase pool & additionals by paying an additional 25% of the pool value at the time the bid is placed.</span></sup></p>
 </div>
-<div class="main">
-<p  align=”center” style="align:center"><h1 align=”center” style="align:center"><b>Defi 2.0: <i>Working Title</i></b></h1></p></br></br>
+<div id='main' class="main">
+<p id='main' align=”center” style="align:center"><h1 align=”center” style="align:center"><b>Defi 2.0: <i>Working Title</i></b></h1></p><p align="right" id="buttonZone"><button id="darkmode" align="right" style="align:right;right:0;" onClick="document.getElementById('body').style='background-color:black;color: limegreen;text-shadow: 0px 0px 6px grey;';document.getElementById('floater').style='background-color:black;color: limegreen;text-shadow: 0px 0px 6px grey;';document.getElementById('main').style='background-color:black;color: limegreen;text-shadow: 0px 0px 6px grey;';document.getElementById('darkmode').style='display:none;';document.getElementById('lightmode').style='display:block;';" value="Dark&nbsp;Mode">Dark&nbsp;Mode</button><button id="lightmode" align="right" style="display:none;align:right;right:0;background-color:black;border-color:limegreen;box-shadow:0px 0px 3px dimgrey;color:limegreen;" onClick="document.getElementById('body').style='background-color:white;color: black;text-shadow: 0px 0px 6px darkgreen;';document.getElementById('floater').style='background-color:white;color: black;text-shadow: 0px 0px 6px darkgreen;';document.getElementById('main').style='background-color:white;color: black;text-shadow: 0px 0px 6px darkgreen;';document.getElementById('darkmode').style='display:block';document.getElementById('lightmode').style='display:none';" value="Dark&nbsp;Mode">Light&nbsp;Mode</button></p>
 <h2 align="center" class="header"><i><b>Get your credits off banks and exchanges, build credits with a community!</b></i></br><sub><sub>That's what this form of defi brings, a way for communities to band together to build a pool to receive more tokens later, a delayed return model.</sub></sub></h2>
 </br></br><hr>
 </br></br>
