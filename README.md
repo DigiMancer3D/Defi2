@@ -45,5 +45,5 @@ The whitepaper can be read [here](https://github.com/DigiMancer3D/Defi2/blob/mas
 
 ## Informational Images
 
-![Bsic Info](https://raw.githubusercontent.com/DigiMancer3D/Defi2/938bf23da7e02286ba08ac8cd6c9308bdc678047/defi%202.0.png?token=AENOXMGF5VXAOOIMDKNSQGC7LLRHI) 
+![Bsic Info](https://raw.githubusercontent.com/DigiMancer3D/Defi2/master/defi%202.0.png?token=AENOXMDHOXRZYW52YTGSOC27N3SWE) 
 
