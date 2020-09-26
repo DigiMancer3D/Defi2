@@ -34,7 +34,7 @@ Demand based inflation, Automated reduced circulation of Tokens, Burn-&-Mix
 <hr><br></br>
 
 # Testing and Additionals
-
+The whitepaper can be read [here](https://github.com/DigiMancer3D/Defi2/blob/master/Whitepaper.md) (Defi2/Whitepaper.md).
 
 <hr><br></br>
 
