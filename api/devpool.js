@@ -26,16 +26,16 @@
 //
 //    Artists::
 //         Graphics: Ricou "Ricooouuuu" (git: --N/A--)
-//         Marketing: unX75 "unX75" (git: --N/A--) 
+//         Marketing: unX75 "unX75" (git: unX75) 
 //         Web & Branding: Amiris B "Amiris" (git: AmirisBrown)
 //         Logo: Dexter "Hog Dexter" (git: --N/A--)
-//         Logo: Johnathon "DrakeinRaven" (git: --N/A--)
+//         Logo: Johnathon "DrakeinRaven" (git: DrakeinRaven)
 //    
 //    Community Managers::
-//         Africa Manager(s): Kit U "Kit BTC" (git: --N/A--)
-//                            Johnathan "DrakeinRaven" (git: --N/A--)
+//         Africa Manager(s): Kit U "Kit BTC" (git: kitudemba21)
+//                            Johnathan "DrakeinRaven" (git: DrakeinRaven)
 //         North America Manager(s): AP "Dr. Me" (git: --N/A--)
-//                                   unX75 "unX75" (git: --N/A--) 
+//                                   unX75 "unX75" (git: unX75) 
 //         Erupoean Managers(s): **Position Open**
 //                               **Position Open**
 //         South America Manager(s): **Position Open**
