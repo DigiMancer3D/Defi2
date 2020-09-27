@@ -6,6 +6,7 @@
 //
 //    Developers::
 //         Sr Dev: KrazyKewl B "B roll" (git: KrazyKewl)
+//         Sr Web Dev: Amiris B "Amiris" (git: AmirisBrown)
 //         Jr Dev: 3Douglas "3D" (git: Digimancer3D)
 //         Sr Tron Dev: KrazyKewl B "B roll" (git: KrazyKewlB)
 //         Jr Tron Dev: **Position Open**
@@ -15,14 +16,20 @@
 //         Jr Skycoin Dev: **Position Open**
 //         Sr EOS Dev: **Position Open**
 //         Jr EOS Dev: **Position Open**
+//         Sr PHP/BTC Dev: **Position Open**
+//         Jr PHP/BTC Dev: **Position Open**
+//         Sr LTC Dev: **Position Open**
+//         Jr LTC Dev: **Position Open**
 //                    **Not all positions need to be filled**
 //
 //Defi 2.0 Community Managers deserve Pay too!
 //
 //    Artists::
 //         Graphics: Ricou "Ricooouuuu" (git: --N/A--)
-//         Logo: Dexter "Hog Dexter" (git: --N/A--)
 //         Marketing: unX75 "unX75" (git: --N/A--) 
+//         Web & Branding: Amiris B "Amiris" (git: AmirisBrown)
+//         Logo: Dexter "Hog Dexter" (git: --N/A--)
+//         Logo: Johnathon "DrakeinRaven" (git: --N/A--)
 //    
 //    Community Managers::
 //         Africa Manager(s): Kit U "Kit BTC" (git: --N/A--)
