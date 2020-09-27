@@ -47,3 +47,5 @@ The whitepaper can be read [here](https://github.com/DigiMancer3D/Defi2/blob/mas
 
 ![Bsic Info](https://raw.githubusercontent.com/DigiMancer3D/Defi2/master/defi%202.0.png?token=AENOXMDHOXRZYW52YTGSOC27N3SWE) 
 
+Don't forget to check the names page and vote for the idea you like the most. Everyone has control, buidl buidl and we'll get this! Build pages as you need em, we can always see previous pages and changes made per team memeber!
+
