@@ -8,14 +8,9 @@
 
  
  
-### Pool Season Life::
+### Pool Season to Token Value Flowchart::
 
-Season Life Image Coming Soon
-</br>
-
-## Token Life::
-
-Token Life Image Coming Soon
+![Defi2 Flowchart](https://raw.githubusercontent.com/DigiMancer3D/Defi2/master/Defi2-Flows.png?token=AENOXMEEHQHSCV4HFIYBLQC7OOA4I)
 
 ## Conclusion:
 
