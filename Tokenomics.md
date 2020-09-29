@@ -10,28 +10,28 @@
  
 ### Pool Season Life::
 
-#### Key::    --Timeline--foward----           >--Exit contract/native token
-//                                                                         (E)/--Burn-&-Mix Payback-->
-//             (A)   /--Random Sends------\                           (D)    /           (H)   /--Temp Dev (token submitter) 
-// --Pool season starts--Unqualified Sends--\                   /--Send Native--Dev Pool Payback--New Dev (git update accepted, gets baked in next contract)
-//             |      \---Qualified Sends---\   (C)           /           /->--------Rebase    \--Baked Dev (original team)    (I)
-//              \---Burn-&-Mix Returns-------\->---Mint Staging->--Minting  (F)            \  (J)                                         (K)
-//                       (B)                                       \->--Partici. Payback    \->--Next Pool Season 4% Release->--Next Pool Season [...]
-        View in landscape or PC (softwrap)                                        (G)
-
+#### Key::    --Timeline--foward----           >--Exit contract/native token</br>
+//                                                                         (E)/--Burn-&-Mix Payback--></br>
+//             (A)   /--Random Sends------\                           (D)    /           (H)   /--Temp Dev (token submitter) </br>
+// --Pool season starts--Unqualified Sends--\                   /--Send Native--Dev Pool Payback--New Dev (git update accepted, gets baked in next contract)</br>
+//             |      \---Qualified Sends---\   (C)           /           /->--------Rebase    \--Baked Dev (original team)    (I)</br>
+//              \---Burn-&-Mix Returns-------\->---Mint Staging->--Minting  (F)            \  (J)                                         (K)</br>
+//                       (B)                                       \->--Partici. Payback    \->--Next Pool Season 4% Release->--Next Pool Season [...]</br>
+        View in landscape or PC (softwrap)                                        (G)</br>
+</br>
 
 ## Token Life::
 
-#### Key::     --Timeline--foward----      / (up)        \ (down)       \--Split      /--Split     ->Loop<--/     /-->Loop-->\      \<--/<--Loop in--/
-//                   |                 |                      |/--Expected Price Dip----\          |                 |       /---->temparory Stablization->||  [...]--(1)
-//                   |                 |/--Expected Price Spike--Temparory Stablization--Expexted Price Spike--\     |      /                       || /\  ||  [...]--(2
-//        (A)        |       (B)      /|         (C)          |          (D)     /--Expected Price Spike--Expected Price Dip--Expected Price Spike<-/  ||  ||  [...]--(3)
-//0--Pool season starts--Forced Inflation--Temparory Stablization--Forced Deflation--Forced Inflation--Forced Deflation--0--[Next Pool Season]         ||  ||  [...]--(4)
-//                  \|                 |     /                |\--Expected Price Dip      (E)    \ |   \  (F - K)    |         (A)                     ||  \/  [...]--(5)
-//                   |\                |    /                 |    /             |  \----Expected Price Spike--Temparory Stablization--Expected Price Dip<-/   [...]--(6) 
-//                   | \--Expected Price Dip                  |   /              |                 |       \   /     |             /  /    ||     ||           [...]--(7)
-//                   |                 |   \--Expected Price Spike--Temarory Stablization--Expexted Price Dip--Expected Price Spike->/     \/     ||           [...]--(8)
-//                   |                 |                      |                  |                 |                 |             \<------/<------/           [...]--(9)
+#### Key::     --Timeline--foward----      / (up)        \ (down)       \--Split      /--Split     ->Loop<--/     /-->Loop-->\      \<--/<--Loop in--/</br>
+//                   |                 |                      |/--Expected Price Dip----\          |                 |       /---->temparory Stablization->|| </br>
+//                   |                 |/--Expected Price Spike--Temparory Stablization--Expexted Price Spike--\     |      /                       || /\  || </br>
+//        (A)        |       (B)      /|         (C)          |          (D)     /--Expected Price Spike--Expected Price Dip--Expected Price Spike<-/  ||  || </br>
+//0--Pool season starts--Forced Inflation--Temparory Stablization--Forced Deflation--Forced Inflation--Forced Deflation--0--[Next Pool Season]         ||  || </br>
+//                  \|                 |     /                |\--Expected Price Dip      (E)    \ |   \  (F - K)    |         (A)                     ||  \/ </br>
+//                   |\                |    /                 |    /             |  \----Expected Price Spike--Temparory Stablization--Expected Price Dip<-/  </br> 
+//                   | \--Expected Price Dip                  |   /              |                 |       \   /     |             /  /    ||     ||          </br>
+//                   |                 |   \--Expected Price Spike--Temarory Stablization--Expexted Price Dip--Expected Price Spike->/     \/     ||          </br>
+//                   |                 |                      |                  |                 |                 |             \<------/<------/          </br>
 
 
 ## Conclusion:
