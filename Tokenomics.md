@@ -10,29 +10,12 @@
  
 ### Pool Season Life::
 
-#### Key::    --Timeline--foward----           >--Exit contract/native token</br>
-//                                                                         (E)/--Burn-&-Mix Payback--></br>
-//             (A)   /--Random Sends------\                           (D)    /           (H)   /--Temp Dev (token submitter) </br>
-// --Pool season starts--Unqualified Sends--\                   /--Send Native--Dev Pool Payback--New Dev (git update accepted, gets baked in next contract)</br>
-//             |      \---Qualified Sends---\   (C)           /           /->--------Rebase    \--Baked Dev (original team)    (I)</br>
-//              \---Burn-&-Mix Returns-------\->---Mint Staging->--Minting  (F)            \  (J)                                         (K)</br>
-//                       (B)                                       \->--Partici. Payback    \->--Next Pool Season 4% Release->--Next Pool Season [...]</br>
-        View in landscape or PC (softwrap)                                        (G)</br>
+Season Life Image Coming Soon
 </br>
 
 ## Token Life::
 
-#### Key::     --Timeline--foward----      / (up)        \ (down)       \--Split      /--Split     ->Loop<--/     /-->Loop-->\      \<--/<--Loop in--/</br>
-//                   |                 |                      |/--Expected Price Dip----\          |                 |       /---->temparory Stablization->|| </br>
-//                   |                 |/--Expected Price Spike--Temparory Stablization--Expexted Price Spike--\     |      /                       || /\  || </br>
-//        (A)        |       (B)      /|         (C)          |          (D)     /--Expected Price Spike--Expected Price Dip--Expected Price Spike<-/  ||  || </br>
-//0--Pool season starts--Forced Inflation--Temparory Stablization--Forced Deflation--Forced Inflation--Forced Deflation--0--[Next Pool Season]         ||  || </br>
-//                  \|                 |     /                |\--Expected Price Dip      (E)    \ |   \  (F - K)    |         (A)                     ||  \/ </br>
-//                   |\                |    /                 |    /             |  \----Expected Price Spike--Temparory Stablization--Expected Price Dip<-/  </br> 
-//                   | \--Expected Price Dip                  |   /              |                 |       \   /     |             /  /    ||     ||          </br>
-//                   |                 |   \--Expected Price Spike--Temarory Stablization--Expexted Price Dip--Expected Price Spike->/     \/     ||          </br>
-//                   |                 |                      |                  |                 |                 |             \<------/<------/          </br>
-
+Token Life Image Coming Soon
 
 ## Conclusion:
 
