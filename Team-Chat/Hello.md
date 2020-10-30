@@ -6,8 +6,6 @@
 
 --3D
 
-Hey all,
-
-Looking forward to this, 
-
---DrakeinRaven
+--KrazyKewl
+Made some changes to some tron stuff and will add some eth configs as well
+Awesome
