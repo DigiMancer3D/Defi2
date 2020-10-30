@@ -24,3 +24,4 @@ module.exports = {
     ..... you can define other network configuration as well
   }
 };
+//this template is not limited to only tron....the network config can be modified
