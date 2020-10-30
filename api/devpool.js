@@ -10,9 +10,9 @@
 //         Jr Dev: 3Douglas "3D" (git: Digimancer3D)
 //         Sr Tron Dev: KrazyKewl B "B roll" (git: KrazyKewlB)
 //         Jr Tron Dev: **Position Open**
-//         Sr Ethereum Dev: **Position Open**
+//         Sr Ethereum Dev: **KrazyKewlB**if none avail
 //         Jr Etherem Dev: **Position Open**
-//         Sr Skycoin Dev: **Position Open**
+//         Sr Skycoin Dev: **KrazyKewlB**If none avail
 //         Jr Skycoin Dev: **Position Open**
 //         Sr EOS Dev: **Position Open**
 //         Jr EOS Dev: **Position Open**
