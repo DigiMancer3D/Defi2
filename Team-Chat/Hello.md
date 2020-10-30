@@ -9,3 +9,5 @@
 --KrazyKewl
 Made some changes to some tron stuff and will add some eth configs as well
 Awesome
+Also I have a defi setup and A trx crypto investor ROI been tossing around
+https://krazykewlcrypto.web.app/
